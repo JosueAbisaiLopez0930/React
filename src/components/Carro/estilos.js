@@ -10,7 +10,7 @@ const styles = {
         padding: '10px 15px',
         cursor: 'pointer',
         paddingBottom:'10px',
-        paddingTop:'-50px',
+        paddingTop:'20px',
     },
     listaArticulos: {
         //border: '1px solid #000',
