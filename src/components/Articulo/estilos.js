@@ -1,8 +1,8 @@
 const styles = {
     article: {
-        border: '1px solid rgba(0, 0, 0, 0.1)',
+        border: '1px solid rgba(217, 210, 208)',
         borderRadius: 5,
-        boxShadow: '5px 5px 15px rgba(0, 0, 0, 0.1)',
+        boxShadow: '5px 5px 15px rgba(217, 210, 208)',
         boxSizing: 'border-box',
         marginBottom: 30,
         padding: 20,
@@ -31,7 +31,7 @@ const styles = {
         marginBottom: 0
     },
     p: {
-        color: '#4c4c4c',
+        color: '#D9D2D0',
         fontSize: '18pt',
         marginTop: 4
     }

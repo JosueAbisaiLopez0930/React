@@ -1,7 +1,8 @@
 import styled, { css } from 'styled-components'
 
-export const Container = styled.article`
-    border: 1px solid rgba(0, 0, 0, 0.1);
+
+export const Container = styled.article` 
+    border: 1px solid rgba(217, 210, 208);
     border-radius: 5px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;

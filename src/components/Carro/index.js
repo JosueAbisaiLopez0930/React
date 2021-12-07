@@ -37,7 +37,7 @@ export const Carro = ({ cantidad, productos}) => {
         <div style={styles.carroContenedor}>
             {cantidad > 0 && <Burbuja cantidad={cantidad} />}
             <button onClick={handleMostrarCarro} style={styles.carro}>
-                Carro
+            <img src="107831.png" width="30px"></img>
             </button>
             {
                 (cantidad > 0 && mostrarCarro) && 

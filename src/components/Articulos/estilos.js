@@ -3,7 +3,8 @@ const styles = {
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'space-around',
-        marginTop: 100
+        marginTop: 100,
+    
     }
 }
 

@@ -1,7 +1,7 @@
 const styles = {
     nav: {
         backdropFilter: 'blur(20px)',
-        background: 'rgba(76,76,76,0.8)',
+        background: 'rgb(40, 36, 35 )',
         boxSizing: 'border-box',
         color: '#fff',
         display: 'flex',
@@ -10,7 +10,9 @@ const styles = {
         position: 'fixed',
         top: 0,
         width: '100%',
-    }
+        color:'rgb(217, 210, 208)'
+    }  
 }
+
 
 export default styles

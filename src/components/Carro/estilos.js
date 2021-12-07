@@ -3,12 +3,14 @@ const styles = {
         position: 'relative'
     },
     carro: {
-        backgroundColor: '#118002',
+        backgroundColor: '#92B3AF',
         border: 'none',
         borderRadius: 5,
         color: '#fff',
         padding: '10px 15px',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        paddingBottom:'10px',
+        paddingTop:'-50px',
     },
     listaArticulos: {
         //border: '1px solid #000',

@@ -1,8 +1,11 @@
 import { Fragment, useEffect, useState, React } from 'react'
 import { Articulos } from "./components/Articulos"
 import { Navbar } from './components/Navbar'
+import styled, { css } from 'styled-components'
 
 
+
+  
 
 // base de datos
 const informacion = {
@@ -40,6 +43,8 @@ function App() {
   }
 
   
+
+  
   useEffect(()=>{
 
     const data = localStorage.getItem('data')
@@ -56,9 +61,6 @@ function App() {
     
     })
 
-  
-  
-  // App > Navbar > Carro > Burbuja > Numero de productos
 
   // let cantidad = data.carrito.length
   let cantidad = data.carrito.reduce((acum, actual) => acum + actual.cantidad, 0)
@@ -66,8 +68,10 @@ function App() {
   return (
     
     <Fragment>
+  
       <Navbar cantidad={cantidad} productos={data.carrito} />
       <Articulos agregarAlCarro={agregarAlCarro} data={data} />
+      
     </Fragment>
     
    
